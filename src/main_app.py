@@ -5,6 +5,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
+import time
 
 # Configuración de la página
 st.set_page_config(
@@ -12,6 +13,65 @@ st.set_page_config(
     page_icon="📝",
     layout="wide"
 )
+
+# CSS personalizado para estilos
+st.markdown("""
+<style>
+.student-card {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.student-no-delivery {
+    border-color: #ff4444;
+    background-color: #ffe6e6;
+}
+
+.student-delivered {
+    border-color: #44ff44;
+    background-color: #e6ffe6;
+}
+
+.student-pending {
+    border-color: #ffaa44;
+    background-color: #fff0e6;
+}
+
+.student-evaluated {
+    border-color: #4444ff;
+    background-color: #e6e6ff;
+}
+
+.metric-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-no-delivery {
+    background-color: #ff4444;
+}
+
+.status-delivered {
+    background-color: #ffaa44;
+}
+
+.status-evaluated {
+    background-color: #4444ff;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Rutas principales
 BASE_DIR = Path(__file__).parent.parent
@@ -91,6 +151,121 @@ def scrap_schoology(html_content, nombres_crea):
         st.error(f"Error procesando HTML: {e}")
         
     return entregas
+
+def get_student_status(evaluacion):
+    """Determina el estado de un estudiante"""
+    if evaluacion["resolucion"] == "no realiza":
+        return "no_entrega", "No Entregó"
+    elif evaluacion["calificacion"]["total"] == 0:
+        return "entregado", "Entregado"
+    else:
+        return "evaluado", "Evaluado"
+
+def render_student_card(evaluacion, index):
+    """Renderiza una tarjeta de estudiante"""
+    status_code, status_text = get_student_status(evaluacion)
+    
+    # Determinar clase CSS
+    if status_code == "no_entrega":
+        card_class = "student-no-delivery"
+        badge_class = "status-no-delivery"
+    elif status_code == "entregado":
+        card_class = "student-pending"
+        badge_class = "status-delivered"
+    else:
+        card_class = "student-evaluated"
+        badge_class = "status-evaluated"
+    
+    # HTML de la tarjeta
+    card_html = f"""
+    <div class="student-card {card_class}">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h4>👤 {evaluacion['nombre']}</h4>
+            <span class="status-badge {badge_class}">{status_text}</span>
+        </div>
+        <p><strong>Tarea:</strong> {evaluacion['tarea']}</p>
+        <p><strong>Calificación:</strong> {evaluacion['calificacion']['total']}/10</p>
+    </div>
+    """
+    
+    st.markdown(card_html, unsafe_allow_html=True)
+
+def evaluate_student_interface(evaluacion, index):
+    """Interfaz para evaluar un estudiante individual"""
+    st.markdown(f"### 📝 Evaluando: {evaluacion['nombre']}")
+    
+    # Mostrar entrega
+    if evaluacion["resolucion"] != "no realiza":
+        with st.expander("Ver entrega completa", expanded=True):
+            st.text_area(
+                "Entrega del estudiante:",
+                evaluacion["resolucion"],
+                height=200,
+                disabled=True,
+                key=f"entrega_{index}"
+            )
+    else:
+        st.error("❌ El estudiante no realizó la entrega")
+        return evaluacion
+    
+    # Formulario de evaluación
+    with st.form(key=f"eval_form_{index}"):
+        st.subheader("Calificación por criterios:")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            criterio1 = st.slider("Criterio 1 (Comprensión)", 0, 3, evaluacion["calificacion"]["detalle"][0], key=f"c1_{index}")
+            criterio2 = st.slider("Criterio 2 (Implementación)", 0, 3, evaluacion["calificacion"]["detalle"][1], key=f"c2_{index}")
+        
+        with col2:
+            criterio3 = st.slider("Criterio 3 (Documentación)", 0, 2, evaluacion["calificacion"]["detalle"][2], key=f"c3_{index}")
+            criterio4 = st.slider("Criterio 4 (Presentación)", 0, 2, evaluacion["calificacion"]["detalle"][3], key=f"c4_{index}")
+        
+        total_calculado = criterio1 + criterio2 + criterio3 + criterio4
+        st.metric("Total calculado", f"{total_calculado}/10")
+        
+        # Comentarios
+        comentarios = st.text_area(
+            "Comentarios para el estudiante:",
+            evaluacion["comentarios"],
+            height=100,
+            key=f"comments_{index}"
+        )
+        
+        # Botones
+        col_btn1, col_btn2, col_btn3 = st.columns(3)
+        
+        with col_btn1:
+            submit_eval = st.form_submit_button("💾 Guardar Evaluación", type="primary")
+        
+        with col_btn2:
+            skip_eval = st.form_submit_button("⏭️ Saltar")
+        
+        with col_btn3:
+            auto_eval = st.form_submit_button("🤖 Evaluación IA", disabled=True)
+        
+        if submit_eval:
+            # Validar que tenga nota si entregó
+            if total_calculado == 0 and evaluacion["resolucion"] != "no realiza":
+                st.warning("⚠️ El estudiante entregó pero la calificación es 0. ¿Está seguro?")
+                confirmar = st.button("Sí, confirmar calificación 0", key=f"confirm_{index}")
+                if not confirmar:
+                    st.stop()
+            
+            # Actualizar evaluación
+            evaluacion["calificacion"]["total"] = total_calculado
+            evaluacion["calificacion"]["detalle"] = [criterio1, criterio2, criterio3, criterio4]
+            evaluacion["comentarios"] = comentarios
+            
+            st.success("✅ Evaluación guardada")
+            return evaluacion, True
+        
+        elif skip_eval:
+            st.info("⏭️ Estudiante saltado")
+            return evaluacion, True
+    
+    return evaluacion, False
 
 def main():
     st.title("📝 Sistema de Evaluación Automática")
@@ -280,21 +455,6 @@ def main():
                 with col3:
                     st.metric("No entregaron", total_estudiantes - estudiantes_entregaron)
                 
-                # Mostrar preview de entregas
-                st.subheader("📋 Preview de Entregas")
-                
-                for evaluacion in evaluaciones[:3]:  # Mostrar solo las primeras 3
-                    with st.expander(f"👤 {evaluacion['nombre']}"):
-                        if evaluacion["resolucion"] != "no realiza":
-                            st.text_area(
-                                "Entrega:",
-                                evaluacion["resolucion"][:500] + "..." if len(evaluacion["resolucion"]) > 500 else evaluacion["resolucion"],
-                                height=100,
-                                disabled=True
-                            )
-                        else:
-                            st.warning("No realizó la entrega")
-                
                 # Guardar información del procesamiento en session_state
                 st.session_state.entregas_procesadas = evaluaciones
                 st.session_state.archivo_entregas = str(entregas_file)
@@ -303,28 +463,155 @@ def main():
             else:
                 st.error("❌ Error guardando las entregas")
     
-    # PASO 6: Evaluar con IA (opcional)
+    # PASO 6: Vista General de Estudiantes
     if 'entregas_procesadas' in st.session_state:
         st.markdown("---")
-        st.header("6️⃣ Evaluación con IA (Opcional)")
+        st.header("6️⃣ Vista General de Estudiantes")
         
-        st.info("🤖 **Próximamente:** Evaluación automática con OpenAI GPT-4")
-        st.write("Esta funcionalidad permitirá:")
-        st.write("- Evaluación automática según rúbrica")
-        st.write("- Comentarios personalizados para cada estudiante")
-        st.write("- Puntuación detallada por criterio")
+        evaluaciones = st.session_state.entregas_procesadas
         
-        # Botón para descargar entregas actuales
+        # Estadísticas por estado
+        no_entregaron = len([e for e in evaluaciones if get_student_status(e)[0] == "no_entrega"])
+        entregaron = len([e for e in evaluaciones if get_student_status(e)[0] == "entregado"])
+        evaluados = len([e for e in evaluaciones if get_student_status(e)[0] == "evaluado"])
+        
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.metric("Total", len(evaluaciones))
+        with col2:
+            st.metric("No Entregaron", no_entregaron)
+        with col3:
+            st.metric("Pendientes", entregaron)
+        with col4:
+            st.metric("Evaluados", evaluados)
+        
+        # Vista de tarjetas
+        st.subheader("📋 Estado de los Estudiantes")
+        
+        for i, evaluacion in enumerate(evaluaciones):
+            render_student_card(evaluacion, i)
+        
+        st.markdown("---")
+        
+        # PASO 7: Evaluación Individual
+        st.header("7️⃣ Evaluación Individual")
+        
+        # Inicializar índice si no existe
+        if 'current_student_index' not in st.session_state:
+            st.session_state.current_student_index = 0
+        
+        # Controles de navegación
+        col_nav1, col_nav2, col_nav3, col_nav4 = st.columns(4)
+        
+        with col_nav1:
+            if st.button("⏮️ Primero") and st.session_state.current_student_index > 0:
+                st.session_state.current_student_index = 0
+                st.rerun()
+        
+        with col_nav2:
+            if st.button("◀️ Anterior") and st.session_state.current_student_index > 0:
+                st.session_state.current_student_index -= 1
+                st.rerun()
+        
+        with col_nav3:
+            if st.button("▶️ Siguiente") and st.session_state.current_student_index < len(evaluaciones) - 1:
+                st.session_state.current_student_index += 1
+                st.rerun()
+        
+        with col_nav4:
+            if st.button("⏭️ Último") and st.session_state.current_student_index < len(evaluaciones) - 1:
+                st.session_state.current_student_index = len(evaluaciones) - 1
+                st.rerun()
+        
+        # Selector directo
+        estudiante_nombres = [f"{i+1}. {e['nombre']}" for i, e in enumerate(evaluaciones)]
+        selected_index = st.selectbox(
+            "Ir directamente a:",
+            range(len(estudiante_nombres)),
+            index=st.session_state.current_student_index,
+            format_func=lambda x: estudiante_nombres[x]
+        )
+        
+        if selected_index != st.session_state.current_student_index:
+            st.session_state.current_student_index = selected_index
+            st.rerun()
+        
+        # Mostrar progreso
+        progreso = (st.session_state.current_student_index + 1) / len(evaluaciones)
+        st.progress(progreso, text=f"Estudiante {st.session_state.current_student_index + 1} de {len(evaluaciones)}")
+        
+        # Interfaz de evaluación
+        current_evaluacion = evaluaciones[st.session_state.current_student_index]
+        
+        try:
+            evaluacion_actualizada, continuar = evaluate_student_interface(current_evaluacion, st.session_state.current_student_index)
+            
+            # Actualizar la evaluación en la lista
+            st.session_state.entregas_procesadas[st.session_state.current_student_index] = evaluacion_actualizada
+            
+            # Guardar automáticamente
+            if continuar:
+                output_dir = DATA_OUTPUT / st.session_state.curso_actual.get("slug", "default")
+                entregas_file = output_dir / f"{st.session_state.consigna_actual}_entregas.json"
+                
+                if save_json(st.session_state.entregas_procesadas, entregas_file):
+                    # Auto-avanzar al siguiente estudiante pendiente
+                    next_pending = None
+                    for i in range(st.session_state.current_student_index + 1, len(evaluaciones)):
+                        if get_student_status(evaluaciones[i])[0] == "entregado":
+                            next_pending = i
+                            break
+                    
+                    if next_pending is not None:
+                        st.session_state.current_student_index = next_pending
+                        time.sleep(1)  # Pequeña pausa
+                        st.rerun()
+                    else:
+                        st.success("🎉 ¡Todas las evaluaciones completadas!")
+                        
+        except Exception as e:
+            st.error(f"❌ Error en la evaluación: {e}")
+            st.info("🔄 Reintentando en 3 segundos...")
+            time.sleep(3)
+            st.rerun()
+        
+        # Descarga final
+        st.markdown("---")
+        st.subheader("📥 Descargar Resultados")
+        
         entregas_json = json.dumps(st.session_state.entregas_procesadas, ensure_ascii=False, indent=2)
         
         st.download_button(
-            label="📥 Descargar Entregas (JSON)",
+            label="📥 Descargar Evaluaciones Completas (JSON)",
             data=entregas_json,
-            file_name=f"{st.session_state.consigna_actual}_entregas.json",
+            file_name=f"{st.session_state.consigna_actual}_evaluaciones_completas.json",
             mime="application/json"
         )
         
-        st.success(f"✅ Archivo guardado en: {st.session_state.archivo_entregas}")
+        # Generar CSV para calificaciones
+        df_calificaciones = pd.DataFrame([
+            {
+                "Nombre": e["nombre"],
+                "Tarea": e["tarea"],
+                "Estado": get_student_status(e)[1],
+                "Calificación": e["calificacion"]["total"],
+                "Criterio 1": e["calificacion"]["detalle"][0],
+                "Criterio 2": e["calificacion"]["detalle"][1],
+                "Criterio 3": e["calificacion"]["detalle"][2],
+                "Criterio 4": e["calificacion"]["detalle"][3],
+                "Comentarios": e["comentarios"]
+            }
+            for e in st.session_state.entregas_procesadas
+        ])
+        
+        csv_data = df_calificaciones.to_csv(index=False, encoding='utf-8')
+        
+        st.download_button(
+            label="📊 Descargar Calificaciones (CSV)",
+            data=csv_data,
+            file_name=f"{st.session_state.consigna_actual}_calificaciones.csv",
+            mime="text/csv"
+        )
 
 if __name__ == "__main__":
     main()
