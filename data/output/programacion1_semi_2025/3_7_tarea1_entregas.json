@@ -3,13 +3,12 @@
     "numero": 1,
     "nombre": "Romina Yanet ACOSTA CENTURIÓN",
     "resolucion": "Buenas noches, comparto los desafíos de la tarea 3.7 Para resolver los desafíos utilicé el material de lectura, usando (sum), (min) y (max) al calcular el promedio. El reto fue realizar la lista sin ser modificada, el método (sorted) permitió ordenarla sin que se generen alteraciones. Desafío 3.7 Github Desafío 3.7 Gitlab \nAdjuntos:\nhttps://github.com/Romina185/Desaf-os/blob/main/Desaf%C3%ADos%203.7%20Arreglos.ipynb\nhttps://gitlab.com/romied29-group/romied29-project/-/tree/main",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
-      "total": 0,
+      "total": 2,
       "detalle": [
         0,
-        0,
+        2,
         0,
         0
       ]
@@ -51,14 +50,13 @@
   {
     "numero": 4,
     "nombre": "Daniela Baez",
-    "resolucion": "no realiza",
-
+    "resolucion": "Buen día, dejo adjuntos los enlaces a la solución. Para solucionar la tarea de promedios de estudiantes utilicé los métodos que subió el profesor al cuaderno \"sum(), max() y min()\". Para la siguiente tarea elegí \"Desafío: inventario de verduleria\"  utilicé códigos como (pop, remove, extend, append, sort) que estaban en la tabla en el cuaderno para resolver los desafíos, saludos\nAdjuntos:\nhttps://github.com/Dani500-code/Desaf-os-1-y-2/blob/main/Desaf%C3%ADo_4_1y2.py\nhttps://github.com/Dani500-code/Desaf-os-1-y-2/blob/main/Tarea_verduleria_dragonfruit.py",
     "tarea": "3_7_tarea1",
     "calificacion": {
-      "total": 0,
+      "total": 1,
       "detalle": [
         0,
-        0,
+        1,
         0,
         0
       ]
@@ -101,7 +99,6 @@
     "numero": 7,
     "nombre": "NÉSTOR BENTABERRY (Néstor)",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -118,7 +115,6 @@
     "numero": 8,
     "nombre": "Graciela Berio",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -135,7 +131,6 @@
     "numero": 9,
     "nombre": "VICTORIA CALCATERRA CENTANARO",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -167,7 +162,7 @@
   {
     "numero": 11,
     "nombre": "Maria Collazo",
-    "resolucion": "TAREA 3. 7 https://github.com/Ma24co/inventario_de_verduleria.git",
+    "resolucion": "no realiza",
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -183,7 +178,7 @@
   {
     "numero": 12,
     "nombre": "Mathías De León",
-    "resolucion": "Buenas noches. Adjunto los enlaces a los ejercicios: Desafío 1: Gestión del stock de la verdulería y Desafío 4: Control de notas de estudiantes En el ejercicio 1, el principal reto que afronté fue en la pregunta 6, en la misma se debía decidir qué productos eliminar del inventario para dejar espacio a uno nuevo, respetando el límite de 7 productos. Además, me costó comprender cómo funciona pop() con los índices cambiantes al eliminar varios elementos seguidos. Para solucionar el problema usé el método pop() para eliminar los productos menos vendidos (a mí criterio) en posiciones específicas del arreglo. Luego, agregué \"dragonfruit\" con append(). Me aseguré de ajustar los índices correctamente al eliminar múltiples elementos. Tuve que tener en cuenta que, al usar pop() varias veces, los índices de los elementos cambian a medida que se elimina cada uno.\nAdjuntos:\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Stock%20de%20verduler%C3%ADa.ipynb\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Notas%20de%20alumnos.ipynb",
+    "resolucion": "no realiza",
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -231,7 +226,7 @@
   {
     "numero": 15,
     "nombre": "JAVIER MARCELO FERNANDEZ LAMS",
-    "resolucion": "hola comparto mi trabajo no se si esta bien o si lo entendi bien, me costo muchisimo trabajo poder realizarlo y simplificarlo despues  de jo el enlace: https://colab.research.google.com/github/Jamafer/Convertir-Temperaturas/blob/main/3_7_Arreglos.ipynb https://github.com/Jamafer/entrega-28-de-mayo.git",
+    "resolucion": "no realiza",
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -280,7 +275,6 @@
     "numero": 18,
     "nombre": "CAMILA DANIELA FLEITAS PEREZ",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -296,7 +290,7 @@
   {
     "numero": 19,
     "nombre": "MATEO INDART VEGA",
-    "resolucion": "https://github.com/MateoUYs/t Al resolver el Desafío 4, me resultó un poco confuso cómo calcular el promedio con listas, pero lo resolví usando sum(lista) / len(lista) . Para la nota más baja y más alta usé min() y max() respectivamente. Elegí el Desafío 2 porque quería practicar cómo ordenar sin modificar la lista original. Usé sorted() para crear una copia ordenada, y eso resolvió el problema sin alterar el inventario inicial. Las líneas más importantes son la 14 (donde uso sorted() ) y la 22 (cálculo del promedio).",
+    "resolucion": "no realiza",
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -313,7 +307,6 @@
     "numero": 20,
     "nombre": "FEDERICO EFRAIN LACLAU CENTURION",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -378,7 +371,6 @@
     "numero": 24,
     "nombre": "Daniel German Mendoza Gonzalez",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -442,7 +434,7 @@
   {
     "numero": 28,
     "nombre": "YENY VALERIA OLIVERA MOLINA",
-    "resolucion": "Bunas.",
+    "resolucion": "no realiza",
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -507,7 +499,6 @@
     "numero": 32,
     "nombre": "MARÍA FABIANA RODRÍGUEZ CAMETO",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -540,7 +531,6 @@
     "numero": 34,
     "nombre": "PEDRO MARTÍN ROSSI QUINTANA",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -557,7 +547,6 @@
     "numero": 35,
     "nombre": "Ruben Samurio",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -589,7 +578,7 @@
   {
     "numero": 37,
     "nombre": "STEFANIA GONZÁLEZ SOTO",
-    "resolucion": "Buenas tardes!! acá dejo mi respositorio con las tareas realizadas: https://gist.github.com/gonzalezte/0b5a2fc4f3053ac6fea7d604fc584b11 Al trabajar con listas uno de los desafíos fue asegurarme de no modificar los datos originales al hacer los cálculos. Para calcular el promedio y encontrar la nota más baja y más alta, usé funciones como sum(), min() y max() para simplificar el proceso. Lo que me resultó interesante fue ver cómo se puede resolver todo de forma eficiente con pocas líneas de código. Me aseguré de documentar el código con comentarios para que quede claro qué hace cada parte. Una parte clave fue definir correctamente la lista de notas y verificar que los datos estuvieran completos antes de operar.",
+    "resolucion": "no realiza",
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -606,7 +595,6 @@
     "numero": 38,
     "nombre": "MARTÍN TAROCO ANTUNEZ",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -655,7 +643,6 @@
     "numero": 41,
     "nombre": "Juan Viviano",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,

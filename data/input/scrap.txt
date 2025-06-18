@@ -1,13 +1,13 @@
 <div class="discussion-card">
-    <div class="comment s-js-comment-wrapper  comment-num-24 comment-by-82927696 ungraded no-children has-action-link-behavior" id="comment-1559097102">
-      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/82927696" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
+    <div class="comment s-js-comment-wrapper  comment-num-22 comment-by-119831339 ungraded no-children has-action-link-behavior" id="comment-1559087262">
+      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/119831339" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
       <div class="comment_picture "><div class="picture">
-  <a href="/user/82927696" title="Mathías De León" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/pictures/picture-1ab7129db439d08851866d4b4ebab592_6053ef1e74de1.jpeg?1616113438" alt="Imagen de perfil de Mathías De León" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
+  <a href="/user/119831339" title="Romina Yanet ACOSTA CENTURIÓN" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/pictures/picture-55c18690e0f0fcb962d435f9afd705fa_67f2b6fa6ebcc.jpg?1743959802" alt="Imagen de perfil de Romina Yanet ACOSTA CENTURIÓN" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
 </div>
-      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1559097102" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
-      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1559097102"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
+      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1559087262" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
+      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1559087262"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
   function immersiveReaderAction() {
-    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1559097102","titleSelectorPath":".s-comment-immersive-reader-content-1559097102 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1559097102 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
+    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1559087262","titleSelectorPath":".s-comment-immersive-reader-content-1559087262 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1559087262 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
     window.removeEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction);
   }
   (window.sgyImmersiveReader === undefined)
@@ -15,34 +15,35 @@
     : immersiveReaderAction();
 })();
 </script></div>
-      <div class="comment-contents s-comment-immersive-reader-content-1559097102">
+      <div class="comment-contents s-comment-immersive-reader-content-1559087262">
       
       
           <div class="comment-comment">
             <div class="comment-top">
-              <span class="comment-author"><a href="/user/82927696" title="Ver Perfil del Usuario." class="sExtlink-processed">Mathías De León</a></span><div class="comment-time-wrapper"><span class="comment-time"><span class="small gray">Mie 28 May, 2025 at 11:32 pm</span></span></div>
-              <div class="comment-more-wrapper"><div class="comment-body-wrapper s-rte"><p dir="ltr">Buenas noches. Adjunto los enlaces a los ejercicios:&nbsp;<a href="https://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Stock%20de%20verduler%C3%ADa.ipynb" class="sExtlink-processed">Desafío 1: Gestión del stock de la verdulería</a>&nbsp;y&nbsp;<a href="https://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Notas%20de%20alumnos.ipynb" class="sExtlink-processed">Desafío 4: Control de notas de estudiantes</a></p>
-<p dir="ltr">En el ejercicio 1, el principal reto que afronté fue en la pregunta 6, en la misma se debía decidir qué productos eliminar del inventario para dejar espacio a uno nuevo, respetando el límite de 7 productos. Además, me costó comprender cómo funciona pop() con los índices cambiantes al eliminar varios elementos seguidos.</p>
-<p style="margin-bottom:0cm;">Para solucionar el problema usé el método pop() para eliminar los productos menos vendidos (a mí criterio) en posiciones específicas del arreglo. Luego, agregué "dragonfruit" con append(). Me aseguré de ajustar los índices correctamente al eliminar múltiples elementos. Tuve que tener en cuenta que, al usar pop() varias veces, los índices de los elementos cambian a medida que se elimina cada uno.</p><span class="comment-id hidden">1559097102</span><span class="clickable comment-more-toggle less">Mostrar menos</span></div></div><div class="comment-less-wrapper hidden"><div class="comment-body-wrapper s-rte"><p dir="ltr">Buenas noches. Adjunto los enlaces a los ejercicios:&nbsp;<a href="https://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Stock%20de%20verduler%C3%ADa.ipynb" class="sExtlink-processed">Desafío 1: Gestión del stock de la verdulería</a>&nbsp;y&nbsp;<a href="https://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Notas%20de%20alumnos.ipynb" class="sExtlink-processed">Desafío 4: Control de notas de estudiantes</a></p>
-<p dir="ltr">En el ejercicio 1, el principal reto que afronté fue en la pregunta 6, en la misma se debía decidir qué productos eliminar del inventario para dejar espacio a uno nuevo, respetando el límite de 7 productos. Además, me costó comprender cómo funciona...<span class="comment-id hidden">1559097102</span><span class="clickable comment-more-toggle">Mostrar más</span></p></div></div>
+              <span class="comment-author"><a href="/user/119831339" title="Ver Perfil del Usuario." class="sExtlink-processed">Romina Yanet ACOSTA CENTURIÓN</a></span><div class="comment-time-wrapper"><span class="infotip hide-qmark sCommonInfotip-processed" tipsygravity="s" aria-label="Mie 28 May, 2025 at 9:01 pm" tabindex="0" original-title="">Editado<span class="infotip-content"><span class="comment-time"><span class="small gray">Mie 28 May, 2025 at 9:01 pm</span></span></span></span> · <span class="comment-time"><span class="small gray">Mie 28 May, 2025 at 8:56 pm</span></span></div>
+              <div class="comment-body-wrapper s-rte"><p dir="ltr">Buenas noches, comparto los desafíos de la tarea 3.7 Para resolver los desafíos utilicé el material de lectura, usando (sum), (min) y (max) al calcular el promedio.</p>
+<p dir="ltr">El reto fue realizar la lista sin ser modificada, el método (sorted) permitió ordenarla sin que se generen alteraciones.</p>
+<p dir="ltr"><a href="https://github.com/Romina185/Desaf-os/blob/main/Desaf%C3%ADos%203.7%20Arreglos.ipynb" class="sExtlink-processed">Desafío 3.7</a>Github</p>
+<p dir="ltr"><a href="https://gitlab.com/romied29-group/romied29-project/-/tree/main" class="sExtlink-processed">Desafío 3.7 Gitlab</a></p>
+<p dir="ltr">&nbsp;</p></div>
             </div>
             
           </div>
     </div>
     <div class="comment-footer">
       
-      <span class="comment-reply"><span tabindex="0" role="button" class="like-btn clickable schoology-processed" id="s-like-c-1559097102" ajax="/like/c/1559097102"><span class="content">Me gusta&nbsp;</span><span class="visually-hidden">'s comment</span></span> · <a href="/course/7752620150/materials/discussion/reply/1559097102" class="reply-comment sExtlink-processed sComment-processed">Responder</a></span>
+      <span class="comment-reply"><span tabindex="0" role="button" class="like-btn clickable schoology-processed" id="s-like-c-1559087262" ajax="/like/c/1559087262"><span class="content">Me gusta&nbsp;</span><span class="visually-hidden">'s comment</span></span> · <a href="/course/7752620150/materials/discussion/reply/1559087262" class="reply-comment sExtlink-processed sComment-processed">Responder</a></span>
     </div>
   </div></div><div class="discussion-card">
-    <div class="comment s-js-comment-wrapper  comment-num-26 comment-by-136194137 ungraded no-children has-action-link-behavior" id="comment-1559099031">
-      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/136194137" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
+    <div class="comment s-js-comment-wrapper  comment-num-8 comment-by-122700621 ungraded has-children has-action-link-behavior" id="comment-1558753792">
+      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/122700621" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
       <div class="comment_picture "><div class="picture">
-  <a href="/user/136194137" title="MATEO INDART VEGA" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/images/user-default.svg" alt="Imagen de perfil de MATEO INDART VEGA" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
+  <a href="/user/122700621" title="Daniela Baez" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/pictures/picture-34f68bd60dd6ac6ae819cd527b3d5277_67ed92887171e.jpg?1743622792" alt="Imagen de perfil de Daniela Baez" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
 </div>
-      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1559099031" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
-      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1559099031"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
+      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1558753792" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
+      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1558753792"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
   function immersiveReaderAction() {
-    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1559099031","titleSelectorPath":".s-comment-immersive-reader-content-1559099031 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1559099031 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
+    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1558753792","titleSelectorPath":".s-comment-immersive-reader-content-1558753792 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1558753792 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
     window.removeEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction);
   }
   (window.sgyImmersiveReader === undefined)
@@ -50,162 +51,41 @@
     : immersiveReaderAction();
 })();
 </script></div>
-      <div class="comment-contents s-comment-immersive-reader-content-1559099031">
+      <div class="comment-contents s-comment-immersive-reader-content-1558753792">
       
       
           <div class="comment-comment">
             <div class="comment-top">
-              <span class="comment-author"><a href="/user/136194137" title="Ver Perfil del Usuario." class="sExtlink-processed">MATEO INDART VEGA</a></span><div class="comment-time-wrapper"><span class="comment-time"><span class="small gray">Jue 29 May, 2025 at 12:13 am</span></span></div>
-              <div class="comment-more-wrapper"><div class="comment-body-wrapper s-rte"><p dir="ltr">https://github.com/MateoUYs/t<br><br>Al resolver el Desafío 4, me resultó un poco confuso cómo calcular el promedio con listas, pero lo resolví usando <code>sum(lista) / len(lista)</code>. Para la nota más baja y más alta usé <code>min()</code> y <code>max()</code> respectivamente.<br> Elegí el Desafío 2 porque quería practicar cómo ordenar sin modificar la lista original. Usé <code>sorted()</code> para crear una copia ordenada, y eso resolvió el problema sin alterar el inventario inicial.<br>Las líneas más importantes son la 14 (donde uso <code>sorted()</code>) y la 22 (cálculo del promedio).</p><span class="comment-id hidden">1559099031</span><span class="clickable comment-more-toggle less">Mostrar menos</span></div></div><div class="comment-less-wrapper hidden"><div class="comment-body-wrapper s-rte"><p dir="ltr">https://github.com/MateoUYs/t<br><br>Al resolver el Desafío 4, me resultó un poco confuso cómo calcular el promedio con listas, pero lo resolví usando <code>sum(lista) / len(lista)</code>. Para la nota más baja y más alta usé <code>min()</code> y <code>max()</code> respectivamente.<br> Elegí el Desafío 2 porque quería practicar cómo ordenar sin modificar la lista original. Usé <code>sorted()</code> para crear una copia ordenada, y eso resolvió el problema...<span class="comment-id hidden">1559099031</span><span class="clickable comment-more-toggle">Mostrar más</span></p></div></div>
-            </div>
-            
-          </div>
-    </div>
-    <div class="comment-footer">
-      
-      <span class="comment-reply"><span tabindex="0" role="button" class="like-btn clickable schoology-processed" id="s-like-c-1559099031" ajax="/like/c/1559099031"><span class="content">Me gusta&nbsp;</span><span class="visually-hidden">'s comment</span></span> · <a href="/course/7752620150/materials/discussion/reply/1559099031" class="reply-comment sExtlink-processed sComment-processed">Responder</a></span>
-    </div>
-  </div></div><div class="discussion-card">
-    <div class="comment s-js-comment-wrapper  comment-num-33 comment-by-82929060 ungraded no-children has-action-link-behavior" id="comment-1559276060">
-      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/82929060" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
-      <div class="comment_picture "><div class="picture">
-  <a href="/user/82929060" title="STEFANIA GONZÁLEZ SOTO" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/pictures/picture-9c7f2708549b714adfc7c0506d05c168_6641ff8019c21.jpeg?1715601280" alt="Imagen de perfil de STEFANIA GONZÁLEZ SOTO" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
-</div>
-      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1559276060" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
-      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1559276060"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
-  function immersiveReaderAction() {
-    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1559276060","titleSelectorPath":".s-comment-immersive-reader-content-1559276060 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1559276060 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
-    window.removeEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction);
-  }
-  (window.sgyImmersiveReader === undefined)
-    ? window.addEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction)
-    : immersiveReaderAction();
-})();
-</script></div>
-      <div class="comment-contents s-comment-immersive-reader-content-1559276060">
-      
-      
-          <div class="comment-comment">
-            <div class="comment-top">
-              <span class="comment-author"><a href="/user/82929060" title="Ver Perfil del Usuario." class="sExtlink-processed">STEFANIA GONZÁLEZ SOTO</a></span><div class="comment-time-wrapper"><span class="comment-time"><span class="small gray">Jue 29 May, 2025 at 6:21 pm</span></span></div>
-              <div class="comment-more-wrapper"><div class="comment-body-wrapper s-rte"><p dir="ltr">Buenas tardes!! acá dejo mi respositorio con las tareas realizadas:</p>
-<p dir="ltr">https://gist.github.com/gonzalezte/0b5a2fc4f3053ac6fea7d604fc584b11&nbsp;</p>
-<p dir="ltr">Al trabajar con listas uno de los desafíos fue asegurarme de no modificar los datos originales al hacer los cálculos. Para calcular el promedio y encontrar la nota más baja y más alta, usé funciones como sum(), min() y max() para simplificar el proceso.<br> Lo que me resultó interesante fue ver cómo se puede resolver todo de forma eficiente con pocas líneas de código.<br> Me aseguré de documentar el código con comentarios para que quede claro qué hace cada parte.<br> Una parte clave fue definir correctamente la lista de notas y verificar que los datos estuvieran completos antes de operar.</p><span class="comment-id hidden">1559276060</span><span class="clickable comment-more-toggle less">Mostrar menos</span></div></div><div class="comment-less-wrapper hidden"><div class="comment-body-wrapper s-rte"><p dir="ltr">Buenas tardes!! acá dejo mi respositorio con las tareas realizadas:</p>
-<p dir="ltr">https://gist.github.com/gonzalezte/0b5a2fc4f3053ac6fea7d604fc584b11&nbsp;</p>
-<p dir="ltr">Al trabajar con listas uno de los desafíos fue asegurarme de no modificar los datos originales al hacer los cálculos. Para calcular el promedio y encontrar la nota más baja y más alta, usé funciones como sum(), min() y max() para simplificar el proceso.<br> Lo...<span class="comment-id hidden">1559276060</span><span class="clickable comment-more-toggle">Mostrar más</span></p></div></div>
-            </div>
-            
-          </div>
-    </div>
-    <div class="comment-footer">
-      
-      <span class="comment-reply"><span tabindex="0" role="button" class="like-btn clickable schoology-processed" id="s-like-c-1559276060" ajax="/like/c/1559276060"><span class="content">Me gusta&nbsp;</span><span class="visually-hidden">'s comment</span></span> · <a href="/course/7752620150/materials/discussion/reply/1559276060" class="reply-comment sExtlink-processed sComment-processed">Responder</a></span>
-    </div>
-  </div></div><div class="discussion-card">
-    <div class="comment s-js-comment-wrapper  comment-num-34 comment-by-131036383 ungraded no-children has-action-link-behavior" id="comment-1559438225">
-      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/131036383" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
-      <div class="comment_picture "><div class="picture">
-  <a href="/user/131036383" title="JAVIER MARCELO FERNANDEZ LAMS" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/pictures/picture-a829dbd4c3b76bdd7069e18bf21d76d4_6613f08021747.jpg?1712582784" alt="Imagen de perfil de JAVIER MARCELO FERNANDEZ LAMS" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
-</div>
-      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1559438225" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
-      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1559438225"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
-  function immersiveReaderAction() {
-    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1559438225","titleSelectorPath":".s-comment-immersive-reader-content-1559438225 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1559438225 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
-    window.removeEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction);
-  }
-  (window.sgyImmersiveReader === undefined)
-    ? window.addEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction)
-    : immersiveReaderAction();
-})();
-</script></div>
-      <div class="comment-contents s-comment-immersive-reader-content-1559438225">
-      
-      
-          <div class="comment-comment">
-            <div class="comment-top">
-              <span class="comment-author"><a href="/user/131036383" title="Ver Perfil del Usuario." class="sExtlink-processed">JAVIER MARCELO FERNANDEZ LAMS</a></span><div class="comment-time-wrapper"><span class="infotip hide-qmark sCommonInfotip-processed" tipsygravity="s" aria-label="Vie 30 May, 2025 at 4:18 pm" tabindex="0" original-title="">Editado<span class="infotip-content"><span class="comment-time"><span class="small gray">Vie 30 May, 2025 at 4:18 pm</span></span></span></span> · <span class="comment-time"><span class="small gray">Vie 30 May, 2025 at 4:15 pm</span></span></div>
-              <div class="comment-body-wrapper s-rte"><p dir="ltr">hola comparto mi trabajo no se si esta bien o si lo entendi bien, me costo muchisimo trabajo poder realizarlo y simplificarlo despues&nbsp; de jo el enlace:</p>
-<p dir="ltr">https://colab.research.google.com/github/Jamafer/Convertir-Temperaturas/blob/main/3_7_Arreglos.ipynb</p>
-<p dir="ltr">https://github.com/Jamafer/entrega-28-de-mayo.git</p></div>
-            </div>
-            
-          </div>
-    </div>
-    <div class="comment-footer">
-      
-      <span class="comment-reply"><span tabindex="0" role="button" class="like-btn clickable schoology-processed" id="s-like-c-1559438225" ajax="/like/c/1559438225"><span class="content">Me gusta&nbsp;</span><span class="visually-hidden">'s comment</span></span> · <a href="/course/7752620150/materials/discussion/reply/1559438225" class="reply-comment sExtlink-processed sComment-processed">Responder</a></span>
-    </div>
-  </div></div><div class="discussion-card">
-    <div class="comment s-js-comment-wrapper  comment-num-35 comment-by-131015535 ungraded no-children has-action-link-behavior" id="comment-1559459325">
-      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/131015535" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
-      <div class="comment_picture "><div class="picture">
-  <a href="/user/131015535" title="YENY VALERIA OLIVERA MOLINA" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/pictures/picture-ef048b35ebe2cc75c82c4d141f8d9cab_67c7680593e17.jpg?1741121541" alt="Imagen de perfil de YENY VALERIA OLIVERA MOLINA" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
-</div>
-      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1559459325" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
-      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1559459325"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
-  function immersiveReaderAction() {
-    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1559459325","titleSelectorPath":".s-comment-immersive-reader-content-1559459325 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1559459325 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
-    window.removeEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction);
-  }
-  (window.sgyImmersiveReader === undefined)
-    ? window.addEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction)
-    : immersiveReaderAction();
-})();
-</script></div>
-      <div class="comment-contents s-comment-immersive-reader-content-1559459325">
-      
-      
-          <div class="comment-comment">
-            <div class="comment-top">
-              <span class="comment-author"><a href="/user/131015535" title="Ver Perfil del Usuario." class="sExtlink-processed">YENY VALERIA OLIVERA MOLINA</a></span><div class="comment-time-wrapper"><span class="comment-time"><span class="small gray">Vie 30 May, 2025 at 8:32 pm</span></span></div>
-              <div class="comment-body-wrapper s-rte"><p dir="ltr">Bunas.</p></div>
+              <span class="comment-author"><a href="/user/122700621" title="Ver Perfil del Usuario." class="sExtlink-processed">Daniela Baez</a></span><div class="comment-time-wrapper"><span class="infotip hide-qmark sCommonInfotip-processed" tipsygravity="s" aria-label="Mar 27 May, 2025 at 1:10 pm" tabindex="0" original-title="">Editado<span class="infotip-content"><span class="comment-time"><span class="small gray">Mar 27 May, 2025 at 1:10 pm</span></span></span></span> · <span class="comment-time"><span class="small gray">Mar 27 May, 2025 at 1:08 pm</span></span></div>
+              <div class="comment-more-wrapper"><div class="comment-body-wrapper s-rte"><p dir="ltr">Buen día, dejo adjuntos los enlaces a la solución.</p>
+<p dir="ltr">Para solucionar la tarea de promedios de estudiantes utilicé los métodos que subió el profesor al cuaderno "sum(), max() y min()".</p>
+<p dir="ltr">Para la siguiente tarea elegí "Desafío: inventario de verduleria"&nbsp; utilicé códigos como (pop, remove, extend, append, sort) que estaban en la tabla en el cuaderno para resolver los desafíos, saludos</p><span class="comment-id hidden">1558753792</span><span class="clickable comment-more-toggle less has-attachment">Mostrar menos</span></div></div><div class="comment-less-wrapper hidden"><div class="comment-body-wrapper s-rte"><p dir="ltr">Buen día, dejo adjuntos los enlaces a la solución.</p>
+<p dir="ltr">Para solucionar la tarea de promedios de estudiantes utilicé los métodos que subió el profesor al cuaderno "sum(), max() y min()".</p>
+<p dir="ltr">Para la siguiente tarea elegí "Desafío: inventario de verduleria"&nbsp; utilicé códigos como (pop, remove, extend, append, sort) que estaban en la tabla en el cuaderno para resolver los desafíos,...<span class="comment-id hidden">1558753792</span><span class="clickable comment-more-toggle has-attachment">Mostrar más</span></p></div></div>
             </div>
             <div class="comment-attachments">
-<div class="attachments clearfix"><div class="attachments-files clearfix">
-    <div class="attachments-file">
-      <span class="attachments-file-icon"><span class="inline-icon default-icon "><span class="visually-hidden">Archivo</span></span></span>
-      <span class="attachments-file-name "><a href="https://cfe.schoology.com/system/files/attachments/files/m/202505/course/7752620150/3_7_Arreglos_1_683a3ffd6b930.ipynb" class="sExtlink-processed">3_7_Arreglos_1.ipynb</a><span class="attachments-file-size small gray">17 KB</span></span>
-      
-    </div></div></div>
+<div class="attachments clearfix"><div class="attachments-link clearfix sAttachment-processed"><div class="attachments-link-left"><span class="inline-icon link-icon "><span class="visually-hidden">Enlace web</span></span></div>
+          <div class="attachments-link-right">
+            <div class="attachments-link-title">
+                    <a class="ext  sExtlink-processed" target="_blank" href="/link?a=&amp;path=https%3A%2F%2Fgithub.com%2FDani500-code%2FDesaf-os-1-y-2%2Fblob%2Fmain%2FDesaf%25C3%25ADo_4_1y2.py&amp;nid=" alt="promedios" title="promedios">promedios</a>
+                 </div>
+            
+     <div class="attachments-link-summary">
+       <div class="small gray">https://github.com/Dani500-code/Desaf-os-1-y-2/blob/main/Desaf%C3%ADo_4_1y2.py</div>
+     </div>
+            <p class="small gray"></p>
+          </div> </div><div class="attachments-link clearfix sAttachment-processed"><div class="attachments-link-left"><span class="inline-icon link-icon "><span class="visually-hidden">Enlace web</span></span></div>
+          <div class="attachments-link-right">
+            <div class="attachments-link-title">
+                    <a class="ext  sExtlink-processed" target="_blank" href="/link?a=&amp;path=https%3A%2F%2Fgithub.com%2FDani500-code%2FDesaf-os-1-y-2%2Fblob%2Fmain%2FTarea_verduleria_dragonfruit.py&amp;nid=" alt="Verduleria" title="Verduleria">Verduleria</a>
+                 </div>
+            
+     <div class="attachments-link-summary">
+       <div class="small gray">https://github.com/Dani500-code/Desaf-os-1-y-2/blob/main/Tarea_verduleria_dragonfruit.py</div>
+     </div>
+            <p class="small gray"></p>
+          </div> </div></div>
 </div>
 
           </div>
     </div>
-    <div class="comment-footer">
-      
-      <span class="comment-reply"><span tabindex="0" role="button" class="like-btn clickable schoology-processed" id="s-like-c-1559459325" ajax="/like/c/1559459325"><span class="content">Me gusta&nbsp;</span><span class="visually-hidden">'s comment</span></span> · <a href="/course/7752620150/materials/discussion/reply/1559459325" class="reply-comment sExtlink-processed sComment-processed">Responder</a></span>
-    </div>
-  </div></div><div class="discussion-card">
-    <div class="comment s-js-comment-wrapper  last comment-num-36 comment-by-82927936 ungraded no-children has-action-link-behavior" id="comment-1560237085">
-      <div class="comment-grade-wrapper"><a href="/discussion/grade_menu/7752620150/7838416837/82927936" class="comment-grade link-btn sExtlink-processed"><span></span></a></div>
-      <div class="comment_picture "><div class="picture">
-  <a href="/user/82927936" title="Maria Collazo" class="sExtlink-processed"><div class="profile-picture-wrapper sUser-processed sCourse-processed"><div class="profile-picture"><img src="https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/pictures/picture-bc034aa47849aa7be173edfba42bf9a3_5e6edf6854aa2_sq.jpg?1584324541" alt="Imagen de perfil de Maria Collazo" title="" class="imagecache imagecache-profile_sm"></div></div></a></div>
-</div>
-      <div class="s-js-comment-action-links"><div class="action-links-wrapper action-links-wrapper-junior aligned-right"><div tabindex="0" role="button" aria-expanded="false" href="#" class="action-links-unfold"><span class="action-links-unfold-text  "><span class="visually-hidden">Haga clic para alternar las opciones.</span></span></div><ul class="action-links " style="display: none;"><li class="action-delete"><a href="/comment/delete/1560237085" class="delete-comment sExtlink-processed">Eliminar</a></li></ul></div></div>
-      <div class="s-comment-immersive-reader"><div class="immersive-reader-button-container" id="s-comment-immersive-reader-button-1560237085"><button class="_button_1ve0h_1 _iconOnly_1ve0h_26" aria-labelledby="immersive-reader-tooltip"><span class="_icon_1ve0h_26"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3v4.336h-1.016v-3.34h-5.588c-.762.2-2.236.798-2.236 1.546v5.58h-1.016v-5.58c0-.499-1.219-1.196-2.133-1.545H3.016v13.006h5.283V18H2V3h7.163l.102.05c.355.1 1.625.598 2.337 1.345.812-.897 2.336-1.295 2.54-1.345H21V3z" fill="#000"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7 21V9h-.65l-3.85 3.95L9 13v4.2h2.2l3.7 3.8h.8zm4.5-11.4l-.8.6.157.226.17.27.134.235.147.274c.453.88.992 2.27.992 3.895 0 1.716-.601 3.17-1.066 4.037l-.142.254-.127.214-.192.293L19.4 20l.8.6.302-.458.212-.354.157-.287.165-.325c.47-.972.964-2.38.964-4.026 0-1.673-.494-3.107-.964-4.098l-.165-.331-.157-.293-.145-.252-.128-.209L20.2 9.6zm-5.55 1.2l-3.05 3.15H9.95v2.25h1.65l3.05 3.15V10.8zm3 .4l-.85.5.005.014.196.379.169.35.123.282.126.313c.228.6.431 1.336.431 2.062 0 .806-.284 1.653-.556 2.28l-.124.272-.116.236-.182.339-.072.123.85.5a.12.12 0 00.01-.014l.083-.133.143-.258.118-.231.13-.273.135-.31c.294-.706.581-1.631.581-2.531 0-.975-.288-1.925-.581-2.644l-.135-.314-.13-.277a8.446 8.446 0 00-.061-.124l-.11-.213-.183-.328z" fill="#0075DB"></path></svg></span></button><div id="immersive-reader-tooltip" role="tooltip" class="_tooltip_1ve0h_63">Immersive Reader</div></div><script type="text/javascript">(function () {
-  function immersiveReaderAction() {
-    window.sgyImmersiveReader.renderButton({"targetId":"s-comment-immersive-reader-button-1560237085","titleSelectorPath":".s-comment-immersive-reader-content-1560237085 .comment-author ","contentSelectorPath":".s-comment-immersive-reader-content-1560237085 .comment-body-wrapper ","origin":"Discussion","variant":"icon"});
-    window.removeEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction);
-  }
-  (window.sgyImmersiveReader === undefined)
-    ? window.addEventListener("SgyImmersiveReaderLoaded", immersiveReaderAction)
-    : immersiveReaderAction();
-})();
-</script></div>
-      <div class="comment-contents s-comment-immersive-reader-content-1560237085">
-      
-      
-          <div class="comment-comment">
-            <div class="comment-top">
-              <span class="comment-author"><a href="/user/82927936" title="Ver Perfil del Usuario." class="sExtlink-processed">Maria Collazo</a></span><div class="comment-time-wrapper"><span class="comment-time"><span class="small gray">Vie 6 Jun, 2025 at 10:18 pm</span></span></div>
-              <div class="comment-body-wrapper s-rte"><p dir="ltr">TAREA 3. 7</p>
-<p dir="ltr">https://github.com/Ma24co/inventario_de_verduleria.git</p></div>
-            </div>
-            
-          </div>
-    </div>
-    <div class="comment-footer">
-      
-      <span class="comment-reply"><span tabindex="0" role="button" class="like-btn clickable schoology-processed" id="s-like-c-1560237085" ajax="/like/c/1560237085"><span class="content">Me gusta&nbsp;</span><span class="visually-hidden">'s comment</span></span> · <a href="/course/7752620150/materials/discussion/reply/1560237085" class="reply-comment sExtlink-processed sComment-processed">Responder</a></span>
-    </div>
-  </div></div></div>
