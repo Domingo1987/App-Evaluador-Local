@@ -1,0 +1,658 @@
+[
+  {
+    "numero": 1,
+    "nombre": "Romina Yanet ACOSTA CENTURIÓN",
+    "resolucion": "Buenas noches, comparto los desafíos de la tarea 3.7 Para resolver los desafíos utilicé el material de lectura, usando (sum), (min) y (max) al calcular el promedio. El reto fue realizar la lista sin ser modificada, el método (sorted) permitió ordenarla sin que se generen alteraciones. Desafío 3.7 Github Desafío 3.7 Gitlab \nAdjuntos:\nhttps://github.com/Romina185/Desaf-os/blob/main/Desaf%C3%ADos%203.7%20Arreglos.ipynb\nhttps://gitlab.com/romied29-group/romied29-project/-/tree/main",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 2,
+    "nombre": "MIRIAM CECILIA ALVES ALVEZ",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 3,
+    "nombre": "Lourdes APARICIO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 4,
+    "nombre": "Daniela Baez",
+    "resolucion": "Buen día, dejo adjuntos los enlaces a la solución. Para solucionar la tarea de promedios de estudiantes utilicé los métodos que subió el profesor al cuaderno \"sum(), max() y min()\". Para la siguiente tarea elegí \"Desafío: inventario de verduleria\"  utilicé códigos como (pop, remove, extend, append, sort) que estaban en la tabla en el cuaderno para resolver los desafíos, saludos\nAdjuntos:\nhttps://github.com/Dani500-code/Desaf-os-1-y-2/blob/main/Desaf%C3%ADo_4_1y2.py\nhttps://github.com/Dani500-code/Desaf-os-1-y-2/blob/main/Tarea_verduleria_dragonfruit.py",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 5,
+    "nombre": "Carolina Bastida",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 6,
+    "nombre": "MICAELA BENITEZ STEMPHELET",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 7,
+    "nombre": "NÉSTOR BENTABERRY (Néstor)",
+    "resolucion": "Comparto mi cuaderno con las soluciones a los desafíos propuestos. Saludos. https://github.com/nesbenuy/programacion1/blob/main/Cuaderno%203_7_Arreglos.ipynb\nAdjuntos:\nhttps://github.com/nesbenuy/programacion1/blob/main/Cuaderno%203_7_Arreglos.ipynb",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 8,
+    "nombre": "Graciela Berio",
+    "resolucion": "Tarea : 3.7 Descripción personal: Destaque algún reto que enfrentaste Al hacer este ejercicio, uno de los desafíos fue hacer que el usuario pueda cargar las notas manualmente, y que el programa indique el error si alguien escribe algo incorrecto, como una letra o un número fuera de rango Para resolverlo, usé un while con un try-except, y verifiqué que cada nota esté entre 1 y 10. Así, solo se guardan los datos válidos. Mencione brevemente la solución aplicada if 1 <= nota <= 10: notas.append(nota Indique líneas relevantes de código o referencias si lo creés necesario. Sort y sorted\nAdjuntos:\nhttps://github.com/GracielaBerio/programacion1/blob/main/Tarea_3_7_Arreglos_%20GBerio.ipynb",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 9,
+    "nombre": "VICTORIA CALCATERRA CENTANARO",
+    "resolucion": "Buenas tardes, adjunto enlace a tarea y repositorio. En el desafío 4, en la 2da pregunta acerca de encontrar la nota más baja y más alta, seguí el ejemplo del material sobre venta mensuales, donde hacia referencia al mes donde las ventas habían sido más altas o más bajas.\nAdjuntos:\nhttps://github.com/VITOCALCA85/Victoria-Calcaterra/blob/main/3_7_Arreglos%20Victoria%20Calcaterra.ipynb",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 10,
+    "nombre": "RENZO JAVIER CAYRUS MELGAREJO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 11,
+    "nombre": "Maria Collazo",
+    "resolucion": "TAREA 3. 7 https://github.com/Ma24co/inventario_de_verduleria.git",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 12,
+    "nombre": "Mathías De León",
+    "resolucion": "Buenas noches. Adjunto los enlaces a los ejercicios: Desafío 1: Gestión del stock de la verdulería y Desafío 4: Control de notas de estudiantes En el ejercicio 1, el principal reto que afronté fue en la pregunta 6, en la misma se debía decidir qué productos eliminar del inventario para dejar espacio a uno nuevo, respetando el límite de 7 productos. Además, me costó comprender cómo funciona pop() con los índices cambiantes al eliminar varios elementos seguidos. Para solucionar el problema usé el método pop() para eliminar los productos menos vendidos (a mí criterio) en posiciones específicas del arreglo. Luego, agregué \"dragonfruit\" con append(). Me aseguré de ajustar los índices correctamente al eliminar múltiples elementos. Tuve que tener en cuenta que, al usar pop() varias veces, los índices de los elementos cambian a medida que se elimina cada uno.\nAdjuntos:\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Stock%20de%20verduler%C3%ADa.ipynb\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Notas%20de%20alumnos.ipynb",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 13,
+    "nombre": "TATIANA ERNST",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 14,
+    "nombre": "VERONICA KARINA ETCHEVERRY CALERO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 15,
+    "nombre": "JAVIER MARCELO FERNANDEZ LAMS",
+    "resolucion": "hola comparto mi trabajo no se si esta bien o si lo entendi bien, me costo muchisimo trabajo poder realizarlo y simplificarlo despues  de jo el enlace: https://colab.research.google.com/github/Jamafer/Convertir-Temperaturas/blob/main/3_7_Arreglos.ipynb https://github.com/Jamafer/entrega-28-de-mayo.git",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 16,
+    "nombre": "DIEGO MARTIN FERNANDEZ RODRIGUEZ",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 17,
+    "nombre": "JUAN GABRIEL FERREYRA CREMELLA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 18,
+    "nombre": "CAMILA DANIELA FLEITAS PEREZ",
+    "resolucion": "Buenas tardes, un reto que enfrenté al realizar la tarea fue entender la diferencia entre los métodos sort() y sorted(), al principio pensaba que ambos funcionaban igual, pero me di cuenta que sort() modifica directamente la lista original lo cual no se pedía en el desafío, eso me llevó a pensar con más cuidado en cómo se manipulan los datos en memoria y de la importancia de no alterar los valores originales cuando no corresponde hacerlo. La solución que apliqué fue utilizar sorted() con el parámetro reverse=True para ordenar el inventario de libros de forma decreciente, sin modificar la lista original, y también probé el código mostrando ambas listas al final para comprobar que no se modificara la original. Una línea relevante del código fue: codigos_ordenados = sorted(codigos_libros, reverse=True) y también print(\"Lista original:\", codigos_libros) print(\"Lista ordenada (decreciente):\", codigos_ordenados) para imprimir las dos listas. Enlace a mi repositorio en GitHub: https://github.com/Camila-Fleitas/Tarea-3.7-Arreglos.-Camila-Fleitas.-Programaci-n-I.git \nAdjuntos:\nhttps://github.com/Camila-Fleitas/Tarea-3.7-Arreglos.-Camila-Fleitas.-Programaci-n-I.git",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 19,
+    "nombre": "MATEO INDART VEGA",
+    "resolucion": "https://github.com/MateoUYs/t Al resolver el Desafío 4, me resultó un poco confuso cómo calcular el promedio con listas, pero lo resolví usando sum(lista) / len(lista) . Para la nota más baja y más alta usé min() y max() respectivamente. Elegí el Desafío 2 porque quería practicar cómo ordenar sin modificar la lista original. Usé sorted() para crear una copia ordenada, y eso resolvió el problema sin alterar el inventario inicial. Las líneas más importantes son la 14 (donde uso sorted() ) y la 22 (cálculo del promedio).",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 20,
+    "nombre": "FEDERICO EFRAIN LACLAU CENTURION",
+    "resolucion": "Hola, comparto mi entrega! https://github.com/efralc/tarea3.7arreglos En el Desafío 4 calculé el promedio usando sum() y len() , y encontré la nota más baja y alta con min() y max() . Esto me ayudó a practicar funciones básicas para manipular listas numéricas. Opté trabajar con el desafío de d estión del stock de la verdulería. U sé len() para contar productos en el inventario y accedí a elementos por índice para responder las preguntas. Me permitió afianzar el manejo de listas y su recorrido. Espero sus comentarios y sugerencias para seguir mejorando.\nAdjuntos:\nhttps://github.com/efralc/tarea3.7arreglos",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 21,
+    "nombre": "Belén Machado",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 22,
+    "nombre": "FIORELLA NATALIA MALLO GABIN",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 23,
+    "nombre": "LUIS MATIAS MARCELINO MESA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 24,
+    "nombre": "Daniel German Mendoza Gonzalez",
+    "resolucion": "Para empezar, tengo que decir que me costó un poco entender cómo se manejan las variables y los tipos de datos en Python. Yo vengo de usar otros lenguajes más estructurados, donde tenés que declarar todo con su tipo bien claro, y eso hacía que fuera más fácil de seguir el código. En Python, como todo es tan libre y automático, hay muchas formas diferentes de hacer lo mismo, y aunque eso es genial porque te da libertad, también te puede marear un poco. A veces uno no sabe cuál es la mejor forma de escribir algo, porque todas funcionan. Por eso, para no perderme, decidí que lo mejor es elegir una manera de programar y seguir siempre ese estilo. Durante estas clases fuimos trabajando con varias cosas: Variables Cadenas de texto Listas Arrays Diccionarios También aprendimos diferentes formas de manejar los datos, como sacar promedios, máximos mínimos o trabajar con muchas notas al mismo tiempo. En resumen, Python es un lenguaje muy poderoso y flexible, pero hay que tener cuidado de no perderse en tantas opciones. Tener un estilo propio ayuda un montón para entender mejor lo que uno hace y para que el código sea más claro. Adjunto github archivo Desafios 3_7 arreglos o listas.ipynb:\nAdjuntos:\nhttps://github.com/DanielCarmelo/cdevs.git",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 25,
+    "nombre": "SANTINO SHERAR MORA QUINTANA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 26,
+    "nombre": "RODRIGO NAWEL MOREIRA BENTANCOR",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 27,
+    "nombre": "Ana Paula Olivera Coronel",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 28,
+    "nombre": "YENY VALERIA OLIVERA MOLINA",
+    "resolucion": "Bunas.",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 29,
+    "nombre": "Sofia Peluffo",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 30,
+    "nombre": "CAROLINA RAMOS LEON",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 31,
+    "nombre": "LORENA ROMINA REYES CUELLO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 32,
+    "nombre": "MARÍA FABIANA RODRÍGUEZ CAMETO",
+    "resolucion": "https://github.com/Faby24/desaf-o-verduler-a/blob/main/3_7_Arreglos%20copia.ipynb https://github.com/Faby24/desafio4_preg1y2/blob/main/Desafio4_preg1y2.ipynb Durante el desafío lo que me costó al principio fue recordar que en Python los índices empiezan en 0, algo importante para ubicar correctamente los elementos dentro del arreglo, especialmente en la pregunta sobre la tercera posición. Saludos!",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 33,
+    "nombre": "NICOLÁS DANIEL RODRIGUEZ SEMERIA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 34,
+    "nombre": "PEDRO MARTÍN ROSSI QUINTANA",
+    "resolucion": "Buen día profesor y compañeros aquí les dejo el enlace a mi repositorio con las tareas realizadas https://github.com/pedrok1218/Programacion-1 Un reto fue decidir cómo manejar el espacio limitado del inventario, ya que solo se podían mantener 7 productos y a su vez tenia que alterar el inventario  agregando y quitando productos.Pero con el cuaderno aportado por el profe y los métodos que se encuentran ahi(remove,pop, sort,etc) pude realizarlo Utilicé len() para contar la cantidad total de productos en la lista del inventario luego removí bananas con remove, luego utilize extend para agregar varios productos al inventario,eliminé el primer producto con pop(0)y agregue uno nuevo con append luego use sort para ordenar todo y por último útilize copy para entregarle una copia del inventario a mi compañero ya que si este la cambia la original no se ve afectada",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 35,
+    "nombre": "Ruben Samurio",
+    "resolucion": "Buenas tardes, estuve creando una lista con las notas con ayuda de len() y dividi la suma entre la cantidad de notas que use para sacar el promedio y lo mostre en pantalla redondeado con un round. Despúes en nota mas bajas y mas alta ,primero asumismos que la nota más alta y la más baja es la primera  ,después use un for para comparar cada una con eso y si encontramos que una es más baja la reemplazamos ,lo mismo lo hacemos para la más alta ,al final las imprimimos. Para la Verdulería use una lista par guardar productos, después con len() contamos cúantos hay, agraegamos un nuevo con append() y lo mostramos y al final imprimimos todo el stock.  https://github.com/ruben-samurio/Arrareglo_programaci-n",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 36,
+    "nombre": "Gerardo Sobrera",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 37,
+    "nombre": "STEFANIA GONZÁLEZ SOTO",
+    "resolucion": "Buenas tardes!! acá dejo mi respositorio con las tareas realizadas: https://gist.github.com/gonzalezte/0b5a2fc4f3053ac6fea7d604fc584b11 Al trabajar con listas uno de los desafíos fue asegurarme de no modificar los datos originales al hacer los cálculos. Para calcular el promedio y encontrar la nota más baja y más alta, usé funciones como sum(), min() y max() para simplificar el proceso. Lo que me resultó interesante fue ver cómo se puede resolver todo de forma eficiente con pocas líneas de código. Me aseguré de documentar el código con comentarios para que quede claro qué hace cada parte. Una parte clave fue definir correctamente la lista de notas y verificar que los datos estuvieran completos antes de operar.",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 38,
+    "nombre": "MARTÍN TAROCO ANTUNEZ",
+    "resolucion": "https://github.com/MartinTaroco/Desafios-Profesorado/blob/main/Listas.py https://github.com/MartinTaroco/Desafios-Profesorado/blob/main/verduleria.py Espero se pueda acceder a la solución Para solucionar utilize los métodos que se encuentran el cuaderno que subio el profesor (append, remove, sort, etc), también utilize tres funciones integradas que son muy utiles que fueron sum(), max() y min(), te informan de la suma de los elementos de la lista, el elemento máximo de la lista y el mínimo respectivamente.",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 39,
+    "nombre": "ANDREA MARIA VIAZZI MOREIRA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 40,
+    "nombre": "STEFANIE VIERA FIGUEROA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 41,
+    "nombre": "Juan Viviano",
+    "resolucion": "Hola profesor como le va, bueno aca queda mi tarea echa. Espero que le guste, cualquier cosa a las ordenes\nAdjuntos:\nhttps://github.com/Juanviviano/Progrmacion/blob/master/3_7_Arreglos%20Juan%20Viviano.ipynb",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  }
+]
