@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "curso": "Programación 1",
+    "centro": "CeRP del Suroeste",
+    "slug": "programacion1_semi_2025",
+    "estudiantes": [
+    {"nombre": "Acosta Romina", "nombre_crea": "Romina Yanet ACOSTA CENTURIÓN"},
+    {"nombre": "Alves Miriam", "nombre_crea": "MIRIAM CECILIA ALVES ALVEZ"},
+    {"nombre": "Aparicio Lourdes", "nombre_crea": "Lourdes APARICIO"},
+    {"nombre": "Baez Daniela", "nombre_crea": "Daniela Baez"},
+    {"nombre": "Bastida Carolina", "nombre_crea": "Carolina Bastida"},
+    {"nombre": "Benítez Micaela", "nombre_crea": "MICAELA BENITEZ STEMPHELET"},
+    {"nombre": "Bentaberry Néstor", "nombre_crea": "NÉSTOR BENTABERRY (Néstor)"},
+    {"nombre": "Berio Graciela", "nombre_crea": "Graciela Berio"},
+    {"nombre": "Calcaterra Victoria", "nombre_crea": "VICTORIA CALCATERRA CENTANARO"},
+    {"nombre": "Cayrus Renzo", "nombre_crea": "RENZO JAVIER CAYRUS MELGAREJO"},
+    {"nombre": "Collazo María", "nombre_crea": "Maria Collazo"},
+    {"nombre": "De León Mathías", "nombre_crea": "Mathías De León"},
+    {"nombre": "Ernst Tatiana", "nombre_crea": "TATIANA ERNST"},
+    {"nombre": "Etcheverry Verónica", "nombre_crea": "VERONICA KARINA ETCHEVERRY CALERO"},
+    {"nombre": "Fernandez Javier", "nombre_crea": "JAVIER MARCELO FERNANDEZ LAMS"},
+    {"nombre": "Fernández Diego", "nombre_crea": "DIEGO MARTIN FERNANDEZ RODRIGUEZ"},
+    {"nombre": "Ferreyra Juan", "nombre_crea": "JUAN GABRIEL FERREYRA CREMELLA"},
+    {"nombre": "Fleitas Camila", "nombre_crea": "CAMILA DANIELA FLEITAS PEREZ"},
+    {"nombre": "Indart Mateo", "nombre_crea": "MATEO INDART VEGA"},
+    {"nombre": "Laclau Federico", "nombre_crea": "FEDERICO EFRAIN LACLAU CENTURION"},
+    {"nombre": "Machado Belén", "nombre_crea": "Belén Machado"},
+    {"nombre": "Mallo Fiorella", "nombre_crea": "FIORELLA NATALIA MALLO GABIN"},
+    {"nombre": "Marcelino Luis", "nombre_crea": "LUIS MATIAS MARCELINO MESA"},
+    {"nombre": "Mendoza Daniel", "nombre_crea": "Daniel German Mendoza Gonzalez"},
+    {"nombre": "Mora Santino", "nombre_crea": "SANTINO SHERAR MORA QUINTANA"},
+    {"nombre": "Moreira Rodrigo", "nombre_crea": "RODRIGO NAWEL MOREIRA BENTANCOR"},
+    {"nombre": "Olivera Ana", "nombre_crea": "Ana Paula Olivera Coronel"},
+    {"nombre": "Olivera Yeny", "nombre_crea": "YENY VALERIA OLIVERA MOLINA"},
+    {"nombre": "Peluffo Sofia", "nombre_crea": "Sofia Peluffo"},
+    {"nombre": "Ramos Carolina", "nombre_crea": "CAROLINA RAMOS LEON"},
+    {"nombre": "Reyes Lorena", "nombre_crea": "LORENA ROMINA REYES CUELLO"},
+    {"nombre": "Rodriguez Maria", "nombre_crea": "MARÍA FABIANA RODRÍGUEZ CAMETO"},
+    {"nombre": "Rodriguez Nicolas", "nombre_crea": "NICOLÁS DANIEL RODRIGUEZ SEMERIA"},
+    {"nombre": "Rossi Pedro", "nombre_crea": "PEDRO MARTÍN ROSSI QUINTANA"},
+    {"nombre": "Samurio Ruben", "nombre_crea": "Ruben Samurio"},
+    {"nombre": "Sobrera Gerardo", "nombre_crea": "Gerardo Sobrera"},
+    {"nombre": "González Stefanía", "nombre_crea": "STEFANIA GONZÁLEZ SOTO"},
+    {"nombre": "Taroco Martin", "nombre_crea": "MARTÍN TAROCO ANTUNEZ"},
+    {"nombre": "Viazzi Andrea", "nombre_crea": "ANDREA MARIA VIAZZI MOREIRA"},
+    {"nombre": "Viera Stefanie", "nombre_crea": "STEFANIE VIERA FIGUEROA"},
+    {"nombre": "Viviano Juan", "nombre_crea": "Juan Viviano"}
+
+    ]
+  },
+  {
+    "id": 2,
+    "año": 2025,
+    "curso": "Programación 2",
+    "centro": "CeRP del Suroeste",
+    "slug": "programacion2_semi_2025",
+    "estudiantes": []
+  }
+]
+

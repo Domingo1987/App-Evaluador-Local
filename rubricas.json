@@ -1,0 +1,57 @@
+[
+  {
+    "id": "problemas_2025_v1",
+    "nombre": "Rúbrica de Evaluación: Problemas",
+    "descripcion": "Rúbrica para evaluar problemas de programación en Programación 1. Considera comprensión del problema, organización del código, funcionalidad y uso de estrategias.",
+    "criterios": [
+      {
+        "id": "comprension",
+        "nombre": "Comprensión del Problema",
+        "maximo": 8,
+        "descripcion": "Evalúa qué tanto el estudiante entiende el enunciado y los requerimientos del problema.",
+        "escala": [
+          { "puntaje": 8, "nivel": "Excelente", "descripcion": "Demuestra una comprensión profunda y completa del problema. Identifica todos los requerimientos y posibles complicaciones de manera precisa." },
+          { "puntaje": 6, "nivel": "Bueno", "descripcion": "Comprende el problema y sus requerimientos, con pequeñas omisiones en la identificación de detalles menores." },
+          { "puntaje": 4, "nivel": "Adecuado", "descripcion": "Comprende el problema en términos generales, pero omite algunos detalles y requerimientos." },
+          { "puntaje": 1, "nivel": "Necesita Mejorar", "descripcion": "Muestra una comprensión limitada o incorrecta del problema." }
+        ]
+      },
+      {
+        "id": "estructura",
+        "nombre": "Estructura y Organización del Código",
+        "maximo": 6,
+        "descripcion": "Evalúa la organización, comentarios y claridad del código presentado.",
+        "escala": [
+          { "puntaje": 6, "nivel": "Excelente", "descripcion": "Comentarios detallados y estructuración clara. Uso consistente de nombres descriptivos y secciones lógicas." },
+          { "puntaje": 4, "nivel": "Bueno", "descripcion": "Comentarios útiles para decisiones importantes. Nombres descriptivos, aunque no siempre uniformes. Estructura lógica." },
+          { "puntaje": 3, "nivel": "Adecuado", "descripcion": "Organización básica con algunos comentarios. Nombres genéricos. Falta de estructura clara." },
+          { "puntaje": 1, "nivel": "Necesita Mejorar", "descripcion": "Código desorganizado y sin comentarios necesarios. Nombres confusos y estructura desordenada." }
+        ]
+      },
+      {
+        "id": "funcionalidad",
+        "nombre": "Funcionalidad y Exactitud",
+        "maximo": 6,
+        "descripcion": "Evalúa si el código cumple con los requerimientos funcionales y casos de prueba.",
+        "escala": [
+          { "puntaje": 6, "nivel": "Excelente", "descripcion": "El código funciona perfectamente para todos los casos de prueba y cumple con todos los requerimientos del problema." },
+          { "puntaje": 4, "nivel": "Bueno", "descripcion": "El código funciona bien para la mayoría de los casos, pero tiene algunos errores menores." },
+          { "puntaje": 3, "nivel": "Adecuado", "descripcion": "El código funciona de manera adecuada, pero falla en algunos casos de prueba o no cumple completamente con los requerimientos." },
+          { "puntaje": 1, "nivel": "Necesita Mejorar", "descripcion": "El código tiene errores significativos y no funciona adecuadamente en la mayoría de los casos." }
+        ]
+      },
+      {
+        "id": "estrategias",
+        "nombre": "Uso de Estrategias y Eficiencia",
+        "maximo": 4,
+        "descripcion": "Evalúa la elección y justificación de estrategias de resolución, así como la eficiencia de la solución.",
+        "escala": [
+          { "puntaje": 4, "nivel": "Excelente", "descripcion": "Estrategias avanzadas y óptimas. Solución eficiente y claramente justificada, adecuada al contexto del problema." },
+          { "puntaje": 3, "nivel": "Bueno", "descripcion": "Estrategias adecuadas y permitidas. Solución eficiente con explicaciones, aunque podría ser más óptima." },
+          { "puntaje": 2, "nivel": "Adecuado", "descripcion": "Estrategias básicas permitidas. Explicaciones insuficientes, recurre a métodos no adecuados sin justificación." },
+          { "puntaje": 1, "nivel": "Necesita Mejorar", "descripcion": "Técnicas no permitidas, con o sin explicación. Dificulta la evaluación y va en contra de las reglas del desafío." }
+        ]
+      }
+    ]
+  }
+]

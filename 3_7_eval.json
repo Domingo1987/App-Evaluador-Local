@@ -1,0 +1,48 @@
+[
+  {
+    "numero": 1,
+    "nombre": "Romina Yanet ACOSTA CENTURIÓN",
+    "resolucion": "Buenas noches, comparto los desafíos de la tarea 3.7 Para resolver los desafíos utilicé el material de lectura, usando (sum), (min) y (max) al calcular el promedio. El reto fue realizar la lista sin ser modificada, el método (sorted) permitió ordenarla sin que se generen alteraciones. Desafío 3.7 Github Desafío 3.7 Gitlab \nAdjuntos:\nhttps://github.com/Romina185/Desaf-os/blob/main/Desaf%C3%ADos%203.7%20Arreglos.ipynb\nhttps://gitlab.com/romied29-group/romied29-project/-/tree/main Desafío 2: Ordenar el inventario de libros Como encargado de la biblioteca, necesitas organizar los libros de acuerdo con sus códigos de identificación en orden decreciente, sin modificar la lista original. Se recomienda usar la función sorted(). ¿Por qué es importante no modificar la lista original? ¿Por qué no puedo usar el método sort sobre la lista original? ¿Por qué es importante no modificar la lista original? Porque se evitan errores, mejora la legibilidad. Permite la utilización del mismo código todo el recorrido. ¿Por qué no puedo usar el método sort sobre la lista original? Este método (sort) ordena la lista pero modificando la original. Al usar (sorted) se elabora una nueva ordenada sin alteraciones. #Organizar los libros a partir de los códigos de identificación. #Realizar la lista de códigos enumerados codigos_originales=[235,105, 415, 325, 128, 312, 298] #Solicitar ordenarlos de forma decreciente. #Usar sorted para no modificar la original. codigos_ordenados = sorted(codigos_originales, reverse=True) #Imprimir los resultados print(`Códigos originales`, codigos_originales) print(`Códigos ordenados`, codigos_ordenados) Códigos originales [235, 105, 415, 325, 128, 312, 298] Códigos ordenados [415, 325, 312, 298, 235, 128, 105] #Calcular el promedio de las notas de la clase. #Realizar una lista de las calificaciones. notas= [7,6,9,7,8,9,8,10,8,6,10] #Realizar los cálculos, sumando las calificaciones y dividiendo entre la cantidad de estudiantes. promedio= sum(notas) / len (notas) #Imprimir el promedio con el resultado oobtenido. print(`El promedio de la clase es`, promedio) Pregunta 1: Calcula el promedio de las notas de la clase. ¿Cómo lo harías? Primero realicé la lista de notas, definida por el uso de corchetes [], para calcular el promedio utilicé la suma (sum) para que se agrupe todas las calificaciones y luego la división entre las cantidades. Al imprimir el promedio se obtuvo que el mismo es de 8. #Encuentra la nota más baja  y más alta, ¿cómo lo harías? #Realizar la lista de las notas [] notas=[7,6,9,7,8,9,8,10,6,10] #Encontrar la nota mínima nota_mínima=min(notas) #Encontrar la nota máxima nota_máxima=max(notas) #Imprimir los resultados print(`la nota más baja`, nota_mínima) print(`la nota más alta` , nota_máxima)",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 2,
+    "nombre": "MIRIAM CECILIA ALVES ALVEZ",
+    "resolucion": "no realiza",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+
+  {
+    "numero": 41,
+    "nombre": "Juan Viviano",
+    "resolucion": "Hola profesor como le va, bueno aca queda mi tarea echa. Espero que le guste, cualquier cosa a las ordenes\nAdjuntos:\nhttps://github.com/Juanviviano/Progrmacion/blob/master/3_7_Arreglos%20Juan%20Viviano.ipynb Pregunta 2: ¿Qué producto está en la tercera posición del inventario? #Pregunta 1 print(len(inventario))  # Resultado: 7 #Pregunta 2 print(inventario[2])  # Resultado: 'zanahorias'  #Pregunta 3 inventario.remove('bananas') print(inventario) #Pregunta 4  nuevos_productos = ['frutillas', 'apio', 'papas'] inventario.extend(nuevos_productos) print(inventario) Pregunta 5 print('papas' in inventario)  # Resultado: True o False #Pregunta 6 if len(inventario) >= 7:     inventario.pop(0)  # Elimina el primer producto inventario.append('dragonfruit') print(inventario) Ordenando el inventario Decides que sería más fácil gestionar el inventario si estuviera ordenado alfabéticamente.  Pregunta 7: ¿Cómo ordenarías el inventario?  Un nuevo empleado viene y necesita una copia del inventario para poder reponer los estantes.   Pregunta 8: ¿Cómo proporcionarías una copia del inventario al nuevo empleado, asegurándote de que si el empleado hace cambios en su copia, el inventario original no se vea afectado?  Esperamos que disfrutes de este desafío y que te ayude a entender mejor cómo trabajar con arreglos en Python. ¡Buena suerte, gerente de la tienda! #Pregunta 7 inventario.sort() print(inventario) #Pregunta 8 copia_empleado = inventario.copy() Desafío 2: Ordenar el inventario de libros Como encargado de la biblioteca, necesitas organizar los libros de acuerdo con sus códigos de identificación en orden decreciente, sin modificar la lista original. Se recomienda usar la función sorted(). ¿Por qué es importante no modificar la lista original? ¿Por qué no puedo usar el método sort sobre la lista original? Desafío 4: Control de notas de estudiantes Como profesor, necesitas manejar las notas de tus estudiantes. Permite ingresar todas las notas de los estudiantes y realiza varias operaciones con esos datos. Pregunta 3: Identifica la nota que más se repite. ¿Cómo lo harías? Nota: La función Counter es útil porque simplifica el conteo de elementos en una lista, permitiendo identificar rápidamente la frecuencia de cada nota. Pregunta 4 (Plus): Realiza un gráfico de barras con las notas. ¿Cómo lo harías? Nota: La biblioteca matplotlib.pyplot es útil porque proporciona funciones fáciles de usar para crear visualizaciones de datos, como gráficos de barras, que pueden ayudar a visualizar la distribución de las notas de manera clara y comprensible. notas = [7.5, 8.0, 6.3, 9.1, 5.8, 10.0, 4.7] promedio = sum(notas) / len(notas) print('Promedio de la clase:', promedio) Promedio de la clase: 7.3428571428571425 nota_mas_baja = min(notas) nota_mas_alta = max(notas) print('Nota más baja:', nota_mas_baja) print('Nota más alta:', nota_mas_alta)",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  }
+]
