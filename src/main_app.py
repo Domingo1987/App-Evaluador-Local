@@ -307,23 +307,32 @@ def main():
     if 'entregas_procesadas' in st.session_state:
         st.markdown("---")
         st.header("6️⃣ Evaluación con IA (Opcional)")
-        
-        st.info("🤖 **Próximamente:** Evaluación automática con OpenAI GPT-4")
-        st.write("Esta funcionalidad permitirá:")
-        st.write("- Evaluación automática según rúbrica")
-        st.write("- Comentarios personalizados para cada estudiante")
-        st.write("- Puntuación detallada por criterio")
-        
+
+        st.info("Puedes evaluar automáticamente las entregas utilizando OpenAI GPT.")
+
+        if st.button("🤖 Ejecutar Evaluación", type="primary"):
+            with st.spinner("Evaluando entregas con OpenAI..."):
+                from evaluar_chat import evaluar_entregas
+
+                evaluaciones = evaluar_entregas(st.session_state.entregas_procesadas)
+                st.session_state.entregas_procesadas = evaluaciones
+
+                archivo_eval = Path(st.session_state.archivo_entregas).with_name(
+                    f"{st.session_state.consigna_actual}_evaluaciones.json"
+                )
+                save_json(evaluaciones, archivo_eval)
+                st.success(f"✅ Evaluación completada. Archivo guardado en: {archivo_eval}")
+
         # Botón para descargar entregas actuales
         entregas_json = json.dumps(st.session_state.entregas_procesadas, ensure_ascii=False, indent=2)
-        
+
         st.download_button(
             label="📥 Descargar Entregas (JSON)",
             data=entregas_json,
             file_name=f"{st.session_state.consigna_actual}_entregas.json",
             mime="application/json"
         )
-        
+
         st.success(f"✅ Archivo guardado en: {st.session_state.archivo_entregas}")
 
 if __name__ == "__main__":
