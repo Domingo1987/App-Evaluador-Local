@@ -2,8 +2,7 @@
   {
     "numero": 1,
     "nombre": "Romina Yanet ACOSTA CENTURIÓN",
-    "resolucion": "Buenas noches, comparto los desafíos de la tarea 3.7 Para resolver los desafíos utilicé el material de lectura, usando (sum), (min) y (max) al calcular el promedio. El reto fue realizar la lista sin ser modificada, el método (sorted) permitió ordenarla sin que se generen alteraciones. Desafío 3.7 Github Desafío 3.7 Gitlab \nAdjuntos:\nhttps://github.com/Romina185/Desaf-os/blob/main/Desaf%C3%ADos%203.7%20Arreglos.ipynb\nhttps://gitlab.com/romied29-group/romied29-project/-/tree/main",
-
+    "resolucion": "no realiza",
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -52,7 +51,6 @@
     "numero": 4,
     "nombre": "Daniela Baez",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -101,7 +99,6 @@
     "numero": 7,
     "nombre": "NÉSTOR BENTABERRY (Néstor)",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -118,7 +115,6 @@
     "numero": 8,
     "nombre": "Graciela Berio",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -135,7 +131,6 @@
     "numero": 9,
     "nombre": "VICTORIA CALCATERRA CENTANARO",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -178,7 +173,7 @@
         0
       ]
     },
-    "comentarios": ""
+    "comentarios": "No se proporcionó un enunciado para evaluar la resolución. Sin el enunciado, no es posible determinar si la solución presentada por el estudiante es adecuada o no. Por favor, proporcione el enunciado completo para una evaluación precisa."
   },
   {
     "numero": 12,
@@ -186,15 +181,15 @@
     "resolucion": "Buenas noches. Adjunto los enlaces a los ejercicios: Desafío 1: Gestión del stock de la verdulería y Desafío 4: Control de notas de estudiantes En el ejercicio 1, el principal reto que afronté fue en la pregunta 6, en la misma se debía decidir qué productos eliminar del inventario para dejar espacio a uno nuevo, respetando el límite de 7 productos. Además, me costó comprender cómo funciona pop() con los índices cambiantes al eliminar varios elementos seguidos. Para solucionar el problema usé el método pop() para eliminar los productos menos vendidos (a mí criterio) en posiciones específicas del arreglo. Luego, agregué \"dragonfruit\" con append(). Me aseguré de ajustar los índices correctamente al eliminar múltiples elementos. Tuve que tener en cuenta que, al usar pop() varias veces, los índices de los elementos cambian a medida que se elimina cada uno.\nAdjuntos:\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Stock%20de%20verduler%C3%ADa.ipynb\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Notas%20de%20alumnos.ipynb",
     "tarea": "3_7_tarea1",
     "calificacion": {
-      "total": 0,
+      "total": 18,
       "detalle": [
-        0,
-        0,
-        0,
-        0
+        7,
+        5,
+        4,
+        2
       ]
     },
-    "comentarios": ""
+    "comentarios": "La resolución de Mathías De León muestra una buena comprensión del problema, especialmente en el manejo de listas y el uso del método pop(). Sin embargo, el enunciado no fue proporcionado, lo que limita la evaluación completa de la comprensión del problema. La estructura y organización del código son adecuadas, con un uso correcto de métodos de listas. La funcionalidad parece ser correcta, aunque no se puede verificar completamente sin el enunciado. En cuanto a la eficiencia, el uso repetido de pop() podría optimizarse, pero se reconoce el esfuerzo por ajustar los índices correctamente. Los enlaces proporcionados son accesibles y contienen el código relevante."
   },
   {
     "numero": 13,
@@ -242,7 +237,7 @@
         0
       ]
     },
-    "comentarios": ""
+    "comentarios": "No se puede evaluar la entrega ya que el enunciado está vacío. Sin el enunciado, no es posible determinar si la resolución cumple con los requisitos del problema. Además, los enlaces proporcionados no fueron accesibles para verificar el contenido del código."
   },
   {
     "numero": 16,
@@ -280,7 +275,6 @@
     "numero": 18,
     "nombre": "CAMILA DANIELA FLEITAS PEREZ",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -307,13 +301,12 @@
         0
       ]
     },
-    "comentarios": ""
+    "comentarios": "No se puede evaluar la entrega ya que el enunciado está vacío y el enlace proporcionado no es accesible. Por favor, proporciona un enunciado completo y un enlace válido para poder realizar la evaluación."
   },
   {
     "numero": 20,
     "nombre": "FEDERICO EFRAIN LACLAU CENTURION",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -378,7 +371,6 @@
     "numero": 24,
     "nombre": "Daniel German Mendoza Gonzalez",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -453,7 +445,7 @@
         0
       ]
     },
-    "comentarios": ""
+    "comentarios": "La entrega no contiene información suficiente para evaluar. No se proporcionó un enunciado ni una resolución adecuada para el problema planteado."
   },
   {
     "numero": 29,
@@ -507,7 +499,6 @@
     "numero": 32,
     "nombre": "MARÍA FABIANA RODRÍGUEZ CAMETO",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -540,7 +531,6 @@
     "numero": 34,
     "nombre": "PEDRO MARTÍN ROSSI QUINTANA",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -557,7 +547,6 @@
     "numero": 35,
     "nombre": "Ruben Samurio",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -592,21 +581,20 @@
     "resolucion": "Buenas tardes!! acá dejo mi respositorio con las tareas realizadas: https://gist.github.com/gonzalezte/0b5a2fc4f3053ac6fea7d604fc584b11 Al trabajar con listas uno de los desafíos fue asegurarme de no modificar los datos originales al hacer los cálculos. Para calcular el promedio y encontrar la nota más baja y más alta, usé funciones como sum(), min() y max() para simplificar el proceso. Lo que me resultó interesante fue ver cómo se puede resolver todo de forma eficiente con pocas líneas de código. Me aseguré de documentar el código con comentarios para que quede claro qué hace cada parte. Una parte clave fue definir correctamente la lista de notas y verificar que los datos estuvieran completos antes de operar.",
     "tarea": "3_7_tarea1",
     "calificacion": {
-      "total": 0,
+      "total": 18,
       "detalle": [
-        0,
-        0,
-        0,
-        0
+        7,
+        5,
+        4,
+        2
       ]
     },
-    "comentarios": ""
+    "comentarios": "La resolución de Stefania muestra una buena comprensión del problema, ya que menciona la importancia de no modificar los datos originales y el uso de funciones adecuadas para calcular el promedio y encontrar las notas extremas. La estructura y organización del código son adecuadas, con comentarios que facilitan la comprensión. Sin embargo, la funcionalidad y exactitud no pueden ser evaluadas completamente debido a la falta de acceso al enlace proporcionado, lo que limita la verificación de la ejecución correcta del código. El uso de estrategias y eficiencia es mencionado, pero sin acceso al código, no se puede evaluar completamente la implementación de estas estrategias."
   },
   {
     "numero": 38,
     "nombre": "MARTÍN TAROCO ANTUNEZ",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,
@@ -655,7 +643,6 @@
     "numero": 41,
     "nombre": "Juan Viviano",
     "resolucion": "no realiza",
-
     "tarea": "3_7_tarea1",
     "calificacion": {
       "total": 0,

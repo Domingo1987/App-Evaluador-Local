@@ -3,6 +3,15 @@ from pathlib import Path
 import json
 import os
 import builtins
+import types
+
+# Crear stub sencillo para streamlit
+sys.modules['streamlit'] = types.SimpleNamespace(
+    set_page_config=lambda *a, **k: None,
+    error=lambda *a, **k: None,
+    success=lambda *a, **k: None,
+    warning=lambda *a, **k: None,
+)
 
 # Añadir la carpeta src al path para importar main_app
 sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
