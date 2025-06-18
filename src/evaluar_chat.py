@@ -6,40 +6,52 @@ from typing import List, Dict, Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
-SYSTEM_PROMPT = """Sos un asistente educativo de evaluación.
-Tu tarea es analizar entregas de estudiantes de programación.
-Antes de evaluar cualquier entrega, debés buscar la consigna original en el archivo de consignas correspondiente (por ejemplo, consignas_p1.json), usando el identificador o nombre de la tarea recibido en el JSON. Utilizá la consigna original como referencia principal para la evaluación.
-Si la resolución incluye un enlace a código o notebook, evaluá tanto el texto de la entrega como el contenido de ese enlace (si está presente y es accesible). Si el enlace no se incluye o no es accesible, indicálo en el comentario.
+SYSTEM_PROMPT = """
+Eres un asistente educativo experto de la aplicación App-Local para evaluar entregas de programación.
+
+Recibirás un objeto JSON con los siguientes campos:
+- "nombre": nombre del estudiante
+- "enunciado": consigna completa a evaluar (texto literal)
+- "resolucion": texto enviado por el estudiante, que puede contener enlaces a código (por ejemplo, GitHub o Colab).
 
 Debes:
-- Leer el objeto JSON recibido, que contiene los campos "nombre" (nombre del estudiante), "resolucion" (texto de la entrega), y "consigna" (identificador o nombre de la tarea).
-- Buscar la consigna de referencia antes de realizar la evaluación.
-- Evaluar la entrega aplicando cuidadosamente la siguiente rúbrica, asegurando que cada criterio esté alineado con lo solicitado en la consigna.
+- Comparar cuidadosamente la resolución del estudiante con el enunciado recibido.
+- Si la resolución incluye enlaces, accede al código real en ellos (si es accesible) y analiza su contenido como parte de la evaluación. Si algún enlace no es accesible, acláralo en el comentario.
+- Evalúa aplicando la siguiente rúbrica:
 
-RÚBRICA:
 1. Comprensión del Problema (máx. 8 puntos)
 2. Estructura y Organización del Código (máx. 6 puntos)
 3. Funcionalidad y Exactitud (máx. 6 puntos)
 4. Uso de Estrategias y Eficiencia (máx. 4 puntos)
 
-Asigna un puntaje para cada criterio (solo uno por criterio), suma el total y genera un comentario claro y específico para el estudiante, haciendo referencia a la consigna original y la resolución presentada.
+Asigna un puntaje único a cada criterio, suma el total y justifica la calificación con un comentario claro y breve.
 
-Devuelve SIEMPRE el resultado en formato JSON, cumpliendo con el siguiente esquema (no agregues texto antes ni después del JSON):
+Devuelve SIEMPRE solo un objeto JSON bajo este JSON Schema:
+
 {
-  "nombre": "Nombre del estudiante",
-  "calificacion": {
-    "total": <suma de los puntajes>,
-    "detalle": [<comprension>, <estructura>, <funcionalidad>, <estrategias>]
+  "type": "object",
+  "properties": {
+    "nombre": {"type": "string"},
+    "calificacion": {
+      "type": "object",
+      "properties": {
+        "total": {"type": "integer"},
+        "detalle": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 4,
+          "maxItems": 4
+        }
+      },
+      "required": ["total", "detalle"]
+    },
+    "comentarios": {"type": "string"}
   },
-  "comentarios": "Comentario para el estudiante."
+  "required": ["nombre", "calificacion", "comentarios"]
 }
 
-Condiciones adicionales:
-- Si la consigna no se puede identificar, avisálo en el comentario.
-- Si hay enlaces no accesibles, especificálo.
-- El comentario debe ser claro, breve y específico sobre la entrega.
+No agregues texto antes ni después del JSON.
 """
-
 
 def _load_client() -> OpenAI:
     """Crea una instancia del cliente OpenAI a partir de la API key."""
@@ -51,13 +63,16 @@ def _load_client() -> OpenAI:
         )
     return OpenAI(api_key=api_key)
 
-
-def evaluar_con_chat(client: OpenAI, nombre: str, resolucion: str, tarea: str) -> Dict[str, Any]:
+def evaluar_con_chat(client: OpenAI, nombre: str, enunciado: str, resolucion: str) -> Dict[str, Any]:
     """Envía una entrega al modelo de chat y devuelve el resultado."""
-    input_json = {"nombre": nombre, "resolucion": resolucion, "consigna": tarea}
+    input_json = {
+        "nombre": nombre,
+        "enunciado": enunciado,
+        "resolucion": resolucion
+    }
 
     user_prompt = (
-        "Evalúa la siguiente entrega usando la consigna dada por clave, la rúbrica y la resolución. "
+        "Evalúa la siguiente entrega usando el enunciado, la rúbrica y la resolución. "
         "Devuelve solo el JSON requerido.\n\nDatos de la entrega:\n"
         f"{json.dumps(input_json, ensure_ascii=False, indent=2)}"
     )
@@ -80,7 +95,6 @@ def evaluar_con_chat(client: OpenAI, nombre: str, resolucion: str, tarea: str) -
     resultado.setdefault("comentarios", "Evaluación completada")
     return resultado
 
-
 def evaluar_entregas(evaluaciones: List[Dict[str, Any]], client: OpenAI | None = None) -> List[Dict[str, Any]]:
     """Evalúa una lista de entregas utilizando OpenAI."""
     if client is None:
@@ -91,12 +105,14 @@ def evaluar_entregas(evaluaciones: List[Dict[str, Any]], client: OpenAI | None =
             entrega.setdefault("calificacion", {"total": 0, "detalle": [0, 0, 0, 0]})
             entrega.setdefault("comentarios", "")
             continue
-        tarea = entrega.get("tarea") or entrega.get("consigna") or "3_7_tarea1"
-        resultado = evaluar_con_chat(client, entrega["nombre"], entrega["resolucion"], tarea)
+        # Extrae nombre, enunciado y resolucion de cada entrega
+        nombre = entrega.get("nombre", "")
+        enunciado = entrega.get("enunciado", "")
+        resolucion = entrega.get("resolucion", "")
+        resultado = evaluar_con_chat(client, nombre, enunciado, resolucion)
         entrega["calificacion"] = resultado.get("calificacion", {"total": 0, "detalle": [0, 0, 0, 0]})
         entrega["comentarios"] = resultado.get("comentarios", "")
     return evaluaciones
-
 
 def evaluate_file(archivo_entrada: str | Path, archivo_salida: str | Path) -> None:
     """Procesa un archivo de entregas y guarda las evaluaciones."""
@@ -113,7 +129,6 @@ def evaluate_file(archivo_entrada: str | Path, archivo_salida: str | Path) -> No
     salida.parent.mkdir(parents=True, exist_ok=True)
     with salida.open("w", encoding="utf-8") as f:
         json.dump(evaluaciones, f, ensure_ascii=False, indent=2)
-
 
 if __name__ == "__main__":
     import sys

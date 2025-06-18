@@ -1,0 +1,658 @@
+[
+  {
+    "numero": 1,
+    "nombre": "Romina Yanet ACOSTA CENTURIÓN",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 2,
+    "nombre": "MIRIAM CECILIA ALVES ALVEZ",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 3,
+    "nombre": "Lourdes APARICIO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 4,
+    "nombre": "Daniela Baez",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 5,
+    "nombre": "Carolina Bastida",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 6,
+    "nombre": "MICAELA BENITEZ STEMPHELET",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 7,
+    "nombre": "NÉSTOR BENTABERRY (Néstor)",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 8,
+    "nombre": "Graciela Berio",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 9,
+    "nombre": "VICTORIA CALCATERRA CENTANARO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 10,
+    "nombre": "RENZO JAVIER CAYRUS MELGAREJO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 11,
+    "nombre": "Maria Collazo",
+    "resolucion": "TAREA 3. 7 https://github.com/Ma24co/inventario_de_verduleria.git",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 12,
+    "nombre": "Mathías De León",
+    "resolucion": "Buenas noches. Adjunto los enlaces a los ejercicios: Desafío 1: Gestión del stock de la verdulería y Desafío 4: Control de notas de estudiantes En el ejercicio 1, el principal reto que afronté fue en la pregunta 6, en la misma se debía decidir qué productos eliminar del inventario para dejar espacio a uno nuevo, respetando el límite de 7 productos. Además, me costó comprender cómo funciona pop() con los índices cambiantes al eliminar varios elementos seguidos. Para solucionar el problema usé el método pop() para eliminar los productos menos vendidos (a mí criterio) en posiciones específicas del arreglo. Luego, agregué \"dragonfruit\" con append(). Me aseguré de ajustar los índices correctamente al eliminar múltiples elementos. Tuve que tener en cuenta que, al usar pop() varias veces, los índices de los elementos cambian a medida que se elimina cada uno.\nAdjuntos:\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Stock%20de%20verduler%C3%ADa.ipynb\nhttps://github.com/Math270993/Tareas-de-Programaci-n/blob/Ejercicios/Arreglos%20-%20Notas%20de%20alumnos.ipynb",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 13,
+    "nombre": "TATIANA ERNST",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 14,
+    "nombre": "VERONICA KARINA ETCHEVERRY CALERO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 15,
+    "nombre": "JAVIER MARCELO FERNANDEZ LAMS",
+    "resolucion": "hola comparto mi trabajo no se si esta bien o si lo entendi bien, me costo muchisimo trabajo poder realizarlo y simplificarlo despues  de jo el enlace: https://colab.research.google.com/github/Jamafer/Convertir-Temperaturas/blob/main/3_7_Arreglos.ipynb https://github.com/Jamafer/entrega-28-de-mayo.git",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 16,
+    "nombre": "DIEGO MARTIN FERNANDEZ RODRIGUEZ",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 17,
+    "nombre": "JUAN GABRIEL FERREYRA CREMELLA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 18,
+    "nombre": "CAMILA DANIELA FLEITAS PEREZ",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 19,
+    "nombre": "MATEO INDART VEGA",
+    "resolucion": "https://github.com/MateoUYs/t Al resolver el Desafío 4, me resultó un poco confuso cómo calcular el promedio con listas, pero lo resolví usando sum(lista) / len(lista) . Para la nota más baja y más alta usé min() y max() respectivamente. Elegí el Desafío 2 porque quería practicar cómo ordenar sin modificar la lista original. Usé sorted() para crear una copia ordenada, y eso resolvió el problema sin alterar el inventario inicial. Las líneas más importantes son la 14 (donde uso sorted() ) y la 22 (cálculo del promedio).",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 20,
+    "nombre": "FEDERICO EFRAIN LACLAU CENTURION",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 21,
+    "nombre": "Belén Machado",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 22,
+    "nombre": "FIORELLA NATALIA MALLO GABIN",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 23,
+    "nombre": "LUIS MATIAS MARCELINO MESA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 24,
+    "nombre": "Daniel German Mendoza Gonzalez",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 25,
+    "nombre": "SANTINO SHERAR MORA QUINTANA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 26,
+    "nombre": "RODRIGO NAWEL MOREIRA BENTANCOR",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 27,
+    "nombre": "Ana Paula Olivera Coronel",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 28,
+    "nombre": "YENY VALERIA OLIVERA MOLINA",
+    "resolucion": "Bunas.",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 29,
+    "nombre": "Sofia Peluffo",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 30,
+    "nombre": "CAROLINA RAMOS LEON",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 31,
+    "nombre": "LORENA ROMINA REYES CUELLO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 32,
+    "nombre": "MARÍA FABIANA RODRÍGUEZ CAMETO",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 33,
+    "nombre": "NICOLÁS DANIEL RODRIGUEZ SEMERIA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 34,
+    "nombre": "PEDRO MARTÍN ROSSI QUINTANA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 35,
+    "nombre": "Ruben Samurio",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 36,
+    "nombre": "Gerardo Sobrera",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 37,
+    "nombre": "STEFANIA GONZÁLEZ SOTO",
+    "resolucion": "Buenas tardes!! acá dejo mi respositorio con las tareas realizadas: https://gist.github.com/gonzalezte/0b5a2fc4f3053ac6fea7d604fc584b11 Al trabajar con listas uno de los desafíos fue asegurarme de no modificar los datos originales al hacer los cálculos. Para calcular el promedio y encontrar la nota más baja y más alta, usé funciones como sum(), min() y max() para simplificar el proceso. Lo que me resultó interesante fue ver cómo se puede resolver todo de forma eficiente con pocas líneas de código. Me aseguré de documentar el código con comentarios para que quede claro qué hace cada parte. Una parte clave fue definir correctamente la lista de notas y verificar que los datos estuvieran completos antes de operar.",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 38,
+    "nombre": "MARTÍN TAROCO ANTUNEZ",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 39,
+    "nombre": "ANDREA MARIA VIAZZI MOREIRA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 40,
+    "nombre": "STEFANIE VIERA FIGUEROA",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  },
+  {
+    "numero": 41,
+    "nombre": "Juan Viviano",
+    "resolucion": "no realiza",
+    "tarea": "3_7_tarea1",
+    "calificacion": {
+      "total": 0,
+      "detalle": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "comentarios": ""
+  }
+]
